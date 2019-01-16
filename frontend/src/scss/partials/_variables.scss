@@ -1,0 +1,27 @@
+$color-blue: #4387DD;
+$color-green: #1DB4B5;
+$color-purple: #7A6BD2;
+$color-gray-light: #C1CBD1;
+$color-gray-medium: #2D353C;
+$color-gray-dark: #242A30;
+
+$primary:       $color-blue;
+$secondary:     $color-gray-medium;
+$success:       $color-green;
+$info:          $color-purple;
+$light:         $color-gray-light;
+$dark:          $color-gray-dark;
+
+$theme-colors: ();
+
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);

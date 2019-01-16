@@ -1,0 +1,25 @@
+@import 'partials/variables';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+body {
+  background: $color-gray-light;
+}
+
+.sidebar {
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 220px;
+  background: #2d353c;
+  position: fixed;
+  z-index: 1010;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px 30px;
+}
+
+.card {
+  color: white;
+}
